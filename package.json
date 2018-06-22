@@ -30,7 +30,8 @@
     "start": "node bin/www",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
-    "postinstall": "bin/cron.js"
+    "postinstall": "bin/cron.js",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "bluebird": "latest",
@@ -61,8 +62,8 @@
     "response-time": "latest",
     "sequelize": "latest",
     "sequelize-cli": "latest",
-    "snyk": "latest",
-    "sqlite3": "^3.1.8",
+    "snyk": "^1.83.0",
+    "sqlite3": "^4.0.0",
     "stream-line-wrapper": "latest",
     "stream-to-array": "latest",
     "superagent": "latest",
