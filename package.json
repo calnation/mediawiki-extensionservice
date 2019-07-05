@@ -61,7 +61,7 @@
     "response-time": "latest",
     "sequelize": "latest",
     "sequelize-cli": "latest",
-    "snyk": "latest",
+    "snyk": "^1.192.0",
     "sqlite3": "^3.1.8",
     "stream-line-wrapper": "latest",
     "stream-to-array": "latest",
